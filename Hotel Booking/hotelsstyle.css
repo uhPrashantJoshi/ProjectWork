@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+
+html {
+
+  overflow: hidden;
+  position: relative;
+}
+body {
+  justify-content: center;
+  
+margin: 0 auto;
+  background: url("sky.jpg");
+  background-size: cover;
+  
+}
+
+  .hotwidget {
+    transition: 1s linear;
+    position: absolute;
+    padding: 20px;
+    left: 36vw;
+    top: 30vh;
+    background: linear-gradient(45deg, black, transparent);
+    border-radius: 15px;
+  }
+  
+  .hotwidget:hover {
+    transition: 0.7s linear;
+    background: black;
+  }
+  
+
+  .cities{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+  
+    
+    font-size: 5vw;
+    
+    font-family: 'Wire One', sans-serif;
+
+  }
+.city{  
+    text-align: center;
+    width: 15vw;
+    height: 20vh;
+    background: black;
+    color: white;
+}
+ 
+ .city{
+  transition: all 0.7s  ease-in-out;
+   display: inline-block;
+   padding: 2vw 2vw 2vw 2vw;
+ }
+
+ .city:hover{  
+   transition: all 0.5s ease-in-out;
+  
+  background: white;
+  color: black
+}
