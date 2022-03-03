@@ -1,0 +1,100 @@
+
+.formthing{
+  height: 100vh;
+  position: absolute;
+  top: 250vh;
+  left: 38vw;
+  letter-spacing: 2px;
+ 
+}
+
+
+h1 {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+ 
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 10vh auto 100px auto;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+  background: transparent;
+
+  color: #ffffff;
+  
+  border: solid 1px #ffffff;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  
+}
+
+input:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #ffffff;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+
+}
+
+textarea:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.875em;
+  color: #ffffff;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #ffffff;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #000000;
+}
